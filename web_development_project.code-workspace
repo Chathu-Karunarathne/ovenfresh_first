@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../web_development_project"
+		},
+		{
+			"path": "../JS-BASICS"
+		},
+		{
+			"path": "../React App"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JS-BASICS"
+	}
+}

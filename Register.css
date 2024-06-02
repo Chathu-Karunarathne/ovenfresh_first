@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px;
+    gap: 20px;
+    position: fixed;
+    transform: translateY(-0.5rem);
+}
+
+
+.logo{
+    color: black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end ;
+    align-items: flex-end;
+    color: black;
+    flex-grow: 1;
+
+}
+
+ul li{
+    list-style: none; 
+    font-size: 16px;
+    padding-right: 1rem;
+    
+    
+    
+}
+
+.search{
+    width: 330px;
+    float: right;
+    margin-right: 270px;
+}
+.wrappercontaner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(92, 50, 165);
+    background-size: cover;
+    background-position: center;
+    padding-top: 2rem;
+    
+}
+
+.wrapper{
+    width: 350px;
+    height: 350px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 2);
+    color: rgb(227, 234, 241);
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.wrapper-input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 30px;
+    
+    
+}
+
+.inp{
+    width:75%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 2);
+    border-radius: 20px;
+    font-size: 16px;
+    color: aliceblue;
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+}
+
+.input-box input::placeholder{
+    color: aliceblue;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper-remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin: 20px  15px;
+}
+
+.wrapper .btn {
+    width: 30%;
+    height: 40px;
+    background: rgb(185, 198, 209);
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    margin-left: 0px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    margin-top: 1rem;
+    transition: all 0.2s linear;
+}
+.wrapper .btn:hover{
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.wrapper .register-link a:hover{
+    color: rgb(131, 21, 21);
+}
+
+.register-link p a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
